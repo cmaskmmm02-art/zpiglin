@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "zpiglinwatch",
+  "version": "1.0.0",
+  "name": "ZPiglin Watch",
+  "description": "If no zombified piglin is on your screen, you get a chat warning and a countdown before the game closes the connection.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.zpiglinwatch.ZPiglinWatchClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
